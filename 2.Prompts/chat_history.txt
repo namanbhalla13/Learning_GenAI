@@ -1,0 +1,4 @@
+HumanMessage: Hi, I want to check my refund.
+AIMessage: Sure, can you provide your order ID?
+HumanMessage: My order ID is ORD12345.
+AIMessage: Thank you. I found your order. Your refund was initiated yesterday.
