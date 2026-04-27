@@ -11,8 +11,6 @@ This document explains how to:
 
 ---
 
-# 📦 Setup
-
 ## ✅ Imports & Environment
 
 ```python
