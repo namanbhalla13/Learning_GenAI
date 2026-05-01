@@ -17,7 +17,7 @@ vectorstore = Chroma(
 )
 
 
-# ✅ FIXED
+
 retriever = vectorstore.as_retriever(
     search_type='mmr',
     search_kwargs={'k': 2,'lambda_mult':1}) #lambda_mult--> relevance-diveristy balance
@@ -33,5 +33,5 @@ results = retriever.invoke(query)
 # print results
 for i, doc in enumerate(results):
     print(f"\n--- Result {i+1} ---")
-    print(doc.page_content)   # ✅ FIXED
+    print(doc.page_content)   
     print(doc.metadata)
